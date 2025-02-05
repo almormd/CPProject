@@ -13,14 +13,15 @@ using namespace std;
 
 int main () {
     
-    cout << "Hello World!" << endl;
+    int num_1, num_2, result;
     
-    char sym = 'A';
-    bool isWork = true;
-    int num = 1;
-    short int num_1 = 23;
+    cout << "Enter num_1: " << endl;
+    cin >> num_1;
+    cout << "Enter num_2: " << endl;
+    cin >> num_2;
     
-    cout << sym << endl;
+    result = num_1 + num_2;
+    cout << "Result is " << result << endl;
     
     return 0;
 }
