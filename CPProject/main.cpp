@@ -6,9 +6,21 @@
 //
 
 #include <iostream>
+#include <string>
+#include <vector>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main () {
+    
+    cout << "Hello World!" << endl;
+    
+    char sym = 'A';
+    bool isWork = true;
+    int num = 1;
+    short int num_1 = 23;
+    
+    cout << sym << endl;
+    
     return 0;
 }
